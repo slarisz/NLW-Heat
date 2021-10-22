@@ -8,7 +8,7 @@ class GetLast3MsgsController {
 
         const result = await service.execute();
 
-        return response.json();
+        return response.json(result);
     }
 
 }
